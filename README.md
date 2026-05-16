@@ -223,10 +223,10 @@ python -m piper.train fit \
   --data.config_path "./mi_voz.json" \
   --data.batch_size 32 \
   --trainer.precision "bf16-mixed" \
-  --ckpt_path "./lightning_logs/version_10/checkpoints/epoch=10570-step=18198.ckpt"
+  --ckpt_path "./lightning_logs/version_11/checkpoints/epoch=10687-step=22878.ckpt"
 ```
 
-> El fine-tuning se realizó durante **~570 épocas adicionales** sobre el checkpoint pre-entrenado, con precisión mixta `bf16` para optimizar el uso de memoria y la velocidad de entrenamiento.
+> El fine-tuning se realizó durante **~687 épocas adicionales** sobre el checkpoint pre-entrenado, con precisión mixta `bf16` para optimizar el uso de memoria y la velocidad de entrenamiento.
 
 ---
 
